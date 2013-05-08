@@ -1,0 +1,51 @@
+es:
+  layout:
+    menu-bitcoin-for-individuals: Personas
+    menu-bitcoin-for-businesses: Empresas
+    menu-bitcoin-for-developers: Desarrolladores
+    menu-bitcoin-for-enthusiasts: Entusiastas
+    menu-bitcoin-for-press: 
+    menu-how-it-works: Como funciona
+    menu-vocabulary: Vocabulario
+    menu-resources: Recursos
+    menu-community: Comunidad
+    menu-development: Desarrollo
+    menu-foundation: Fundación
+    menu-about: Acerca de
+    button-wallet: Elige tu monedero
+    button-know: Debes saber
+    button-support: Apoya Bitcoin
+    footer: © Bitcoin Project 2009–2013 Publicado bajo la <a href="http://creativecommons.org/licenses/MIT/" target="_blank">licencia MIT</a>
+  url:
+    about: acerca-de
+    bitcoin-for-developers: bitcoin-para-desarrolladores
+    bitcoin-for-enthusiasts: bitcoin-para-entusiastas
+    bitcoin-for-individuals: bitcoin-para-personas
+    bitcoin-for-businesses: bitcoin-para-empresas
+    bitcoin-for-press: 
+    choose-your-wallet: elige-tu-monedero
+    community: comunidad
+    development: desarrollo
+    download: descargar
+    foundation: fundacion
+    how-it-works: como-funciona
+    resources: recursos
+    secure-your-wallet: 
+    support-bitcoin: apoya-bitcoin
+    vocabulary: vocabulario
+    you-need-to-know: debes-saber
+  anchor:
+    vocabulary:
+      address: direccion
+      block-chain: cadena-de-bloques
+      block: bloque
+      btc: btc
+      confirmation: confirmacion
+      cryptography: criptografia
+      double-spend: doble-gasto
+      hash-rate: velocidad-de-hash
+      mining: mineria
+      p2p: p2p
+      private-key: llave-privada
+      signature: firma
+      wallet: monedero

@@ -1,0 +1,51 @@
+fr:
+  layout:
+    menu-bitcoin-for-individuals: Particuliers
+    menu-bitcoin-for-businesses: Entreprises
+    menu-bitcoin-for-developers: Développeurs
+    menu-bitcoin-for-enthusiasts: Passionnés
+    menu-bitcoin-for-press: 
+    menu-how-it-works: Comment ça marche
+    menu-vocabulary: Vocabulaire
+    menu-resources: Ressources
+    menu-community: Communauté
+    menu-development: Développement
+    menu-foundation: Fondation
+    menu-about: À propos
+    button-wallet: Choisissez votre porte-monnaie
+    button-know: Vous devez savoir
+    button-support: Supporter Bitcoin
+    footer: © Bitcoin Project 2009–2013 Publié sous la <a href="http://creativecommons.org/licenses/MIT/" target="_blank">licence MIT</a>
+  url:
+    about: a-propos
+    bitcoin-for-developers: bitcoin-pour-developpeurs
+    bitcoin-for-enthusiasts: bitcoin-pour-passionnes
+    bitcoin-for-individuals: bitcoin-pour-particuliers
+    bitcoin-for-businesses: bitcoin-pour-entreprises
+    bitcoin-for-press: 
+    choose-your-wallet: choisir-votre-porte-monnaie
+    community: communaute
+    development: developpement
+    download: telecharger
+    foundation: fondation
+    how-it-works: comment-ca-marche
+    resources: ressources
+    secure-your-wallet: 
+    support-bitcoin: supporter-bitcoin
+    vocabulary: vocabulaire
+    you-need-to-know: vous-devez-savoir
+  anchor:
+    vocabulary:
+      address: adresse
+      block-chain: chaine-de-bloc
+      block: bloc
+      btc: btc
+      confirmation: confirmation
+      cryptography: cryptographie
+      double-spend: double-depense
+      hash-rate: taux-de-hash
+      mining: minage
+      p2p: p2p
+      private-key: cle-privee
+      signature: signature
+      wallet: porte-monnaie

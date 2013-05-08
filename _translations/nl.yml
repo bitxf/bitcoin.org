@@ -1,0 +1,51 @@
+nl:
+  layout:
+    menu-bitcoin-for-individuals: Particulieren
+    menu-bitcoin-for-businesses: Particulieren
+    menu-bitcoin-for-developers: Ontwikkelaars
+    menu-bitcoin-for-enthusiasts: Liefhebbers
+    menu-bitcoin-for-press: 
+    menu-how-it-works: Hoe het werkt
+    menu-vocabulary: Woordenlijst
+    menu-resources: Hulpmiddelen
+    menu-community: Community
+    menu-development: Ontwikkeling
+    menu-foundation: Stichting
+    menu-about: Over Bitcoin
+    button-wallet: Kies uw portemonnee
+    button-know: Wat u moet weten
+    button-support: Help Bitcoin
+    footer: © Bitcoin Project 2009–2013 Beschikbaar onder de <a href="http://creativecommons.org/licenses/MIT/" target="_blank">MIT-licentie</a>
+  url:
+    about: over-bitcoin
+    bitcoin-for-developers: bitcoin-voor-ontwikkelaars
+    bitcoin-for-enthusiasts: bitcoin-voor-liefhebbers
+    bitcoin-for-individuals: bitcoin-voor-particulieren
+    bitcoin-for-businesses: bitcoin-voor-bedrijven
+    bitcoin-for-press: 
+    choose-your-wallet: kies-uw-portemonnee
+    community: community
+    development: ontwikkeling
+    download: download
+    foundation: stichting
+    how-it-works: hoe-het-werkt
+    resources: hulpmiddelen
+    secure-your-wallet: 
+    support-bitcoin: help-bitcoin
+    vocabulary: woordenlijst
+    you-need-to-know: wat-u-moet-weten
+  anchor:
+    vocabulary:
+      address: bitcoin-adres
+      block-chain: blokketen
+      block: blok
+      btc: btc
+      confirmation: bevestiging
+      cryptography: cryptografie
+      double-spend: dubbele-uitgaven
+      hash-rate: hashsnelheid
+      mining: delven
+      p2p: p2p
+      private-key: geheime-sleutel
+      signature: digitale-handtekening
+      wallet: portemonnee
