@@ -1,28 +1,28 @@
 ---
-lang: en
-layout: base-en
+lang: zh-cn
+layout: base-zh-cn
 id: how-it-works
-title: How does Bitcoin work? - Bitcoin
+title: 比特币的运作 － 比特币
 ---
-<h1>How does Bitcoin work?</h1>
+<h1>比特币是如何运作的？</h1>
 
-<p>OK, this is a question that often causes confusion. Here's a quick explanation!
+<p>这是一个经常引起混淆的问题，以下是一个简单明了的解释。
 
-<h2>The basics for a new user</h2>
-<p>As a new user, you only need to <a href="/{{page.lang}}/{{site.section.choose-your-wallet[page.lang]}}">choose a wallet</a> that you will install on your computer or on your mobile phone. Once you have your wallet installed, it will generate your first Bitcoin address and you can create more whenever you need one. You can disclose one of your Bitcoin addresses to your friends so that they can pay you or vice versa, you can pay your friends if they give you their addresses. In fact, this is pretty similar to how email works. So all that is left to do at this point is to get some bitcoins and to <a href="/{{page.lang}}/{{site.section.secure-your-wallet[page.lang]}}">keep them safe</a>. In order to start using Bitcoin, you are not required to understand the technical details.</p>
+<h2>新用户所需了解的一些基本知识</h2>
+<p>作为一个比特币的新用户，你只需要 <a href="/zh-cn/choose-your-wallet">选择一个钱包</a> 安装到你的电脑或者智能手机上。当你成功安装了钱包以后，它会为你生成你的第一个比特币地址，在任何有需要的时候，你可以通过你的钱包生成更多的比特币地址。当你的朋友收到你发送给他们的比特币地址后，他们可以很简单地用比特币付款给你，反之亦然，如果你的朋友把他们的比特币地址给你，你就可以用比特币付款给他们。实际上，这跟电子邮件的运作方式是非常类似的。所以说，此时要做的仅仅就是去获取一些比特币，并将它们<a href="/zh-cn/secure-your-wallet">安全保存</a>起来。要使用比特币，其实你不需要了解太多的技术细节。</p>
 
-<p>However, if you want to know more, keep reading!</p>
+<p>不过，如果你想了解更多的话，请接着往下看！</p>
 
-<p><br><img src="/{{page.lang}}/img/bitcoin_at_a_glance.svg" alt="Bitcoin overview" /></p>
+<p><br><img src="/zh-cn/img/bitcoin_at_a_glance.svg" alt="Bitcoin overview" /></p>
 
-<h2>Balances<a class="titlelight"> - block chain</a></h2>
-<p>The block chain is a <b>shared public transaction log</b> on which the entire Bitcoin network relies. All confirmed transactions are included in the block chain with no exception. This way, new transactions can be verified to be spending bitcoins that are actually owned by the spender. The integrity and the chronological order of the block chain are enforced with <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.cryptography[page.lang]}}">cryptography</a>.</p>
+<h2>平衡<a class="titlelight"> - 比特币数据链 block chain</a></h2>
+<p>比特币数据链是整个比特币网络所倚靠的<b>公众交易日志</b>，也就是一个保存了所有比特币交易信息的数据库。所有确认的交易均毫无例外地包含在block chain之内。如此一来，在新增的交易中，正在被花费的比特币就可被证实的确是属于花费者所拥有。block chain的真实完整性以及其时间顺序性是由<a href="/zh-cn/vocabulary#cryptography">密码使用法</a>来执行的。</p>
 
-<h2>Transactions<a class="titlelight"> - private keys</a></h2>
-<p>A transaction is <b>a transfer of value between Bitcoin addresses</b> that gets included in the block chain. Bitcoin wallets keep a secret piece of data called a <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.private-key[page.lang]}}"><i>private key</i></a> for each Bitcoin address. Private keys are used to sign transactions, providing a mathematical proof that they have come from the owner of the addresses. The <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.signature[page.lang]}}"><i>signature</i></a> also prevents the transaction from being altered by anybody once it has been issued. All transactions are broadcast between users and confirmed by the network in the following minutes, through a process called <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.mining[page.lang]}}"><i>mining</i></a>.</p>
+<h2>交易<a class="titlelight"> - 私钥</a></h2>
+<p>一次交易是被包含在block chain里的<b>在比特币地址之间所进行的有价值的数据交换</b>。比特币钱包为每一个比特币地址保存着一个私密性的数据，这个数据被称为<a href="/zh-cn/vocabulary#private-key"><i>私钥</i></a>私钥是用来签署交易的，同时提供数学证据证明交易中的比特币是来自于该比特币地址的拥有者的。这个<a href="/zh-cn/vocabulary#signature"><i>签署</i></a>同样也避免交易中的数据被任何人所更改。所有的交易都公布与用户之间，且在交易发生后的一段时间内，通过一个处理过程被比特币网络所确认，这个处理过程就是<a href="/zh-cn/vocabulary#mining"><i>挖矿</i></a>。</p>
 
-<h2>Processing<a class="titlelight"> - mining</a></h2>
-<p>Mining is a <b>distributed consensus system</b> that is used to <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.confirmation[page.lang]}}"><i>confirm</i></a> waiting transactions by including them in the block chain. It enforces a chronological order in the block chain, protects the neutrality of the network, and allows different computers to agree on the state of the system. To be confirmed, transactions must be packed in a <a href="/{{page.lang}}/{{site.section.vocabulary[page.lang]}}#{{site.vocabulary.block[page.lang]}}"><i>block</i></a> that fits very strict cryptographic rules that will be verified by the network. These rules prevent previous blocks from being modified because doing so would invalidate all following blocks. Mining also creates the equivalent of a competitive lottery that prevents any individual from easily adding new blocks consecutively in the block chain. This way, no individuals can control what is included in the block chain or replace parts of the block chain to roll back their own spends.</p>
+<h2>处理<a class="titlelight"> - 挖矿</a></h2>
+<p>挖矿是通过把数据交换信息包含到block chain里，矿工对这些待确认的交易进行<a href="/zh-cn/vocabulary#confirmation"><i>确认</i></a>的<b>分布式一致性系统</b>。 这个处理过程按照时间顺序排列，不仅保证了整个比特币网络的中立性，且允许不同的计算机对系统状态表示认同。为了取得网络确认，交易数据必须打包到符合严格密码学规则的<a href="/zh-cn/vocabulary#block"><i>数据块</i></a>。这些规则防止了对以往数据块的修改，因为一旦这种情况发生，将会导致之后所有的数据块失效。挖矿同时也创造了等量抽彩式竞争，以防止任何个人不间断地将数据块加入到block chain中。正因为这样，没有人可以控制block chain中所包含的内容或者替换block chain中的部分内容以达到重复交易的目的。</p>
 
-<h2>Going down the rabbit hole</h2>
-<p>This is only a very short and concise summary of the system. If you want to get into the details, you can <a href="/bitcoin.pdf">read the original paper</a> that describes the system's design, and explore the <a href="https://en.bitcoin.it/wiki/Main_Page">Bitcoin wiki</a>.</p>
+<h2>深入探究</h2>
+<p>这只是对比特币系统的一个简要的总结，如果你想要了解更多的细节，你可以<a href="/bitcoin.pdf">参阅原始资料</a>，里面对系统的设计有详细的描述，或者参考 <a href="https://zh-cn.bitcoin.it/wiki/Main_Page">比特币维基百科</a>。</p>
